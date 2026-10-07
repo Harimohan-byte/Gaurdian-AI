@@ -1,0 +1,17 @@
+# GuardianAI-RAG — Module 1 baseline (AI-generated image detector)
+#
+# IMPORTANT — read before running `pip install -r requirements.txt`:
+# This installs the CPU-only build of torch/torchvision by default on Windows.
+# If you have an NVIDIA GPU and want CUDA acceleration (training will be
+# MUCH faster), do NOT just run this file as-is for torch/torchvision.
+# Instead go to https://pytorch.org/get-started/locally/, select your OS
+# (Windows), package (pip), and your CUDA version, copy the exact install
+# command it gives you, run that FIRST, then run this file — pip will see
+# torch/torchvision already satisfied and skip reinstalling them.
+
+torch
+torchvision
+numpy
+pillow
+scikit-learn
+matplotlib
